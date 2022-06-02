@@ -1,6 +1,6 @@
 import React from 'react';
-import NavBar from './features/NavBar';
-import MainContentBox from './features/MainContentBox';
+import NavBar from './features/NavBar/navBar';
+import MainContentBox from './features/MainContentBox/mainContentBox';
 
 // import logo from './logo.svg';
 // import { Counter } from './features/counter/Counter';
