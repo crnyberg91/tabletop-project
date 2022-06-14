@@ -1,22 +1,12 @@
 import React from 'react';
 import { Form, Button, Col, Row } from 'react-bootstrap';
-import './charForm.css';
+import './selectedClassPage.css';
 
-class CharForm extends React.Component {
+class SelectedClassPage extends React.Component {
     render() {
         // console.log(this.props);
         return (
             <Form>
-                <Row>
-                    <Col>
-                        <label className="label">name</label>
-                        <Form.Control type="text" required/>
-                    </Col>
-                    <Col>
-                        <label className="label">class</label>
-                        <Form.Control type="text" required/>
-                    </Col>
-                </Row>
                 <Col>
                     <label className="label">placeholder</label>
                     <Form.Control required/>
@@ -43,4 +33,4 @@ class CharForm extends React.Component {
     }
 }
 
-export default CharForm;
+export default SelectedClassPage;
